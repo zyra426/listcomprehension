@@ -2,22 +2,22 @@ from complete_main import create_hall_of_fame
 
 run_cases = [
     ([
-        (1, 1, True, False),
-        (1, 2, True, True),
-        (1, 3, True, False),
+        (1, 1, False),
+        (1, 2, True),
+        (1, 3, False),
     ], ["Kelsier"])
 ]
 
 submit_cases = run_cases + [
     ([
-        (1, 1, True, False),
-        (1, 2, True, True),
-        (1, 3, True, False),
-        (1, 4, True, True),
-        (1, 5, True, False),
-        (1, 6, True, True),
-        (1, 7, True, True),
-        (1, 8, True, True),
+        (1, 1, False),
+        (1, 2, True),
+        (1, 3, False),
+        (1, 4, True),
+        (1, 5, False),
+        (1, 6, True),
+        (1, 7, True),
+        (1, 8, True),
     ], ["Kelsier", "Sazed", "Dockson", "Breeze", "Lestibournes"]),
 ]
 
